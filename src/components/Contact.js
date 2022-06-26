@@ -6,7 +6,7 @@ import "./Contact.css";
 const Contact = ({profile}) => {
     return (
         <div class="contact">
-      <img class="photo" src={profil.photo}></img>
+      <img class="photo" src={profile.photo}></img>
       <div class="profile">
         <p>{profile.name}</p>
         <p>{profile.phone}</p>
